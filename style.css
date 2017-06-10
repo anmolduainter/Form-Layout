@@ -1,0 +1,55 @@
+body{
+
+	margin: 0 auto;
+	background-image: url("wonder.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 720px;
+}
+
+.container{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 90px;
+    border-radius: 4px;
+    background-color: rgba(0, 5, 7,0.7);
+}
+.container img{
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+}
+
+input[type="text"],input[type="password"]{
+	width: 300px;
+	height: 45px;
+	font-size: 18px;
+	padding-left: 40px;
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+.form-input::before{
+	content: "\f007";
+	padding-top: 5px;
+	padding-left: 4px;
+	color: rgb(187,85,47);
+	font-family: "FontAwesome";
+	position: absolute;
+	font-size: 35px;
+}
+.form-input:nth-child(2)::before{
+	content: "\f023"
+}
+.btn-login{
+	padding: 15px 30px;
+	color: #fff;
+	background-color: 	rgb(124,142,30);
+	border: none;
+	font-weight: bold;
+	border-radius: 4px;
+}
+.btn-login:hover{
+	background-color: red;
+}
